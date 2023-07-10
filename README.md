@@ -24,7 +24,7 @@ There are some additional configuration options in the comments of the [Docker](
     - VS Code will starts to download the [Python3 Dev Container](https://github.com/microsoft/vscode-dev-containers/tree/main/containers/python-3) image, install PDM that will create a virtual environment and install everything.
 
 2. Start working with the repo in the DevContainer
-    - When you open any notebook the kernel will automatically detected. You can open the demo notebook `demo.ipynb` and execute it to see that everything works.
+    - When you open any notebook the kernel will automatically detected. If it doesn't detect it, you can choose the `Recommended python environment`. You can open the demo notebook `demo.ipynb` and execute it to see that everything works.
     - If you open a new terminal inside VS Code, the virtual environment created should be activated. If it is not activated you can activate it with the command `source .venv/bin/activate`.
 
 ## Ways to customize the template
