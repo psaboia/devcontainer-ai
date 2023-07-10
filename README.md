@@ -10,8 +10,9 @@ The Docker setup for the Dev Container starts with a Python image that then will
 There are some additional configuration options in the comments of the [Docker](.devcontainer/Dockerfile) and [devcontainer.json](.devcontainer/devcontainer.json) that have some examples of other steps you may want to add to your Dev Container, like what VS Code extensions to install when the container is launched.
 
 ## Prerequisites for work on your computer
+
 - VS Code with DevContainer extension installed
-- Docker 
+- Docker
 
 ## How to use this template
 
