@@ -32,3 +32,30 @@ There are some additional configuration options in the comments of the [Docker](
 
 - Change the container `name` in [devcontainer.json](.devcontainer/devcontainer.json).
 - TODO: Add more customization options.
+
+## Tools Included in the Template
+
+This template includes a variety of tools that support the development of Trusted AI systems. Trusted AI refers to AI systems that are transparent, explainable, fair, and robust. Here's an overview of the major tools included and how they contribute to Trusted AI:
+
+### Quarto
+
+[Quarto](https://quarto.org/) is a powerful tool for creating computational documents using a variety of languages such as Python, R, and Julia. Quarto documents provide a transparent way of sharing your data analysis, which includes code, explanatory text, and visualizations, fostering trust in your AI workflows.
+
+### NBdev
+
+[NBdev](https://nbdev.fast.ai/) is a library that allows you to develop a library in Jupyter Notebooks, putting all your code, tests, and documentation in one place. By making it easy to keep your code and documentation together, NBdev promotes transparency and reproducibility, key aspects of Trusted AI. NBdev is specifically configured to use Quarto in this template.
+
+### DVC
+
+[Data Version Control (DVC)](https://dvc.org/) is a version control system for machine learning projects. By tracking changes in your data and models, DVC makes your experiments reproducible, which is a fundamental part of creating AI systems that can be trusted.
+
+### Hugging Face Hub (Optional)
+
+[Hugging Face Hub](https://huggingface.co/) is a platform for sharing and collaborating on transformers models. A key feature of the Hugging Face Hub is the support for Model and Dataset cards, which are markdown files that accompany datasets and models and provide a description of their content, use-cases, creation/annotation process, biases, limitations and ethical considerations. These cards promote transparency and understanding, making it easier for users to find the right models and datasets for their needs and use them responsibly. Thus, the hub contributes to the development of Trusted AI by enhancing transparency, reproducibility, and responsible use of AI models and data.
+
+### SPDX SBoM (Optional)
+
+[Software Package Data Exchange (SPDX)](https://spdx.dev/) is a standard for communicating the components, licenses, and copyrights associated with a software package. By providing a clear list of components and their licenses, SPDX contributes to transparency and accountability in AI systems. This template includes support for SPDX version 3, which includes new support for AI.
+
+These tools are designed to be used together to build Trusted AI systems. However, you can modify them to suit your needs. Instructions for how to use these tools are included in the respective sections of this README.
+
