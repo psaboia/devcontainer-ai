@@ -1,0 +1,35 @@
+[project]
+name = "TAI-Framework"
+version = "0.0.1"
+description = "TAI-Framework is a framework for training and evaluating AI models."
+authors = [    
+    { name = "Priscila Saboia Moreira", email = "pmoreira@nd.edu" }
+]
+dependencies = [
+    
+    "dvc[gdrive]",
+    "dvclive>=2.10.0",     
+    "nbdev>=2.3.12",
+    "quarto>=0.1.0",
+
+    "matplotlib",
+    "jupyterlab-quarto>=0.1.45",
+    "nbconvert",
+    "jupyter",
+    "tqdm",
+    
+    "numpy>=1.24.2",
+    "pandas>=1.5.3",
+    "torch>=1.13.1",
+    "torchvision",
+
+    "scipy",
+    "scikit-learn",
+    
+]
+requires-python = ">=3.10,<3.11"
+license = { text = "MIT" }
+
+[build-system]
+requires = ["pdm-pep517>=1.0.0"]
+build-backend = "pdm.pep517.api"
